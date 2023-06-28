@@ -1,0 +1,24 @@
+body{
+    background-position: left top;
+    background-image: url("https://profile.ru/wp-content/uploads/354263-fb.jpeg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+header{
+    background-color: aqua;
+    height:60px;
+    margin-left:400px;
+    margin-right:400px;
+    margin-top: 0px;
+}
+ul.userfeatures {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.userfeatures li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+   }
+li{
+    margin:16px;
+}
