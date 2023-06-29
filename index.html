@@ -5,28 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Стартовая страница</title>
     <link rel="stylesheet"href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <form>
-            <ul class="userfeatures">
-                <li>
-                    <input type="text"class="userdata" required>
-                </li>
-                <li>
-                    <input type="password"class="userdata" required>
-                </li>
-                <li>
-                    <button>Войти</button>
-                </li>
-                <li>
-                    <button>Регистрация</button>
-                </li>
-                <li>
-                    <button>ЧаВо</button>
-                </li>
-            </ul>
-        </form>
+        <ul class="userfeatures">
+            <li>
+                <form class="inputs" id="registration">
+                    <input type="email"class="form-control" required placeholder="Введите адрес почты">
+                    <input type="password"class="form-control" required placeholder="Введите пароль">
+                    <button type="submit"class="btn btn-success" form="registration">Войти</button>
+                </form>      
+            </li> 
+            <li>
+                <button type="button" class="btn btn-danger">Забыли пароль?</button>
+            </li>        
+            <li>
+                <button class="btn btn-primary">Регистрация</button>
+            </li>
+            <li>
+                <a href="directions.html"><button class="btn btn-info">Правила игры</button></a>
+            </li>                     
+        </ul>
     </header>
+    <main>
+        <a href="index.html">
+        <div class="logo">
+            <div class="symbol">
+                <img class="logoimg"src="ае- лото.png">
+            </div>
+            <div class="name">
+                <div class="nametxt">ОСЕТИНСКОЕ</div>
+                <br>
+                <div class="nametxt">
+                    ЛОТО
+                </div>
+            </div>
+        </div>
+        </a>
+        <br>
+        <div class="tools">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Показать обучающие раунды</label>
+            <br>
+            <button class="btn btn-success" >Играть с другом!</button>
+        </div>
+        <br>
+        <div class="gamearea">
+            <img width=1422px height=600px src="roundview.png">
+        </div>    
+        <br>
+        <br>  
+    </main>
+    <br>
+    <footer>
+       <img class="footerimg" src="ае- лото footer.png"> 
+       <br>
+       <br>
+       <div class="information">
+           <div>По вcем интересующим вопросам обращайтесь:</div>
+           <br>
+           <div class="contact">
+            <img width=20px height=20px src="email.png">
+            <div>Kasumyan2004@mail.ru</div>
+           </div>
+           <br>
+           <div class="contact">
+            <img width=20px height=20px src="telegram.png">
+            <div>@KasumyanR</div>
+           </div>
+           <br>
+           <div class="contact">
+            <img width=20px height=20px src="github.png">
+            <div>https://github.com/KasumyanRafael/IronLotoHTML_Version</div>
+           </div>
+       </div>
+    </footer>
 </body>
 </html>

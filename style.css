@@ -5,20 +5,83 @@ body{
     background-size: cover;
 }
 header{
-    background-color: aqua;
+    background-color: rgba(159, 214, 235,10);
     height:60px;
-    margin-left:400px;
+    margin-left:300px;
     margin-right:400px;
     margin-top: 0px;
+    display:flex;
+    justify-content: center;
+    position:inline;
 }
 ul.userfeatures {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+    padding: 3px; 
+    display:flex;
+    padding-left: 200px;
+
    }
    ul.userfeatures li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+    display: inline; 
    }
-li{
+   li{
     margin:16px;
+}
+.inputs{
+    display:flex;
+    padding-right:30px;
+}
+.logo{
+    background-color: rgba(116,213,235,10);
+    display:flex;
+    margin-top:40px;
+    margin-left:40px;
+    width:450px;
+    height:150px;
+}
+.logoimg{
+    width:150px;
+    height:150px; 
+}
+.nametxt{
+    font-size:40px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:red
+}
+.gamearea{
+    margin-left:300px;
+    background-color:rgba(243, 237, 237,10);
+    height:600px;
+    width:1422px;
+    display:flex;
+}
+.tools{
+    width: 800px;
+    height:40px;
+    margin-left: 600px;
+    padding-left:20px;
+}
+label{
+    color:white;
+    font-size: 20;
+}
+footer{
+    background-color: rgb(243, 200, 200);
+    height:210px;
+    display:flex;
+}
+.footerimg{
+    width:100px;
+    height:100px;
+    margin-left:136px;
+    margin-top:20px;
+}
+.information{
+    margin-left:200px;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact{
+    display:flex;
 }
